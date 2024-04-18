@@ -1,0 +1,97 @@
+body {
+    width: 500px;
+    height: 300px;
+    background-image: linear-gradient(to bottom, aquamarine, #00FFFF); /* Aquamarine to light blue */
+    padding: 20px; /* Add equal padding on all sides for consistent margin */
+    box-sizing: border-box; /* Include padding in width and height calculations */
+    display: flex; /* Enable flexbox for vertical positioning */
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: space-between; /* Distribute remaining space between elements */
+  }
+  
+  #texto-entrada {
+    width: 100%; /* Stretch to full width within the body */
+    height: 300px; /* Alto del área de texto */
+    margin: 0 auto; /* Remove default margins, set auto margins for centering  */
+    padding: 15px; /* Relleno interno alrededor del texto */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 5px; /* Bordes redondeados */
+    font-family: sans-serif; /* Familia de letra sans-serif (personalizable) */
+    font-size: 14px; /* Tamaño de la fuente */
+    line-height: 1.5; /* Espacio entre líneas */
+    resize: vertical; /* Permite redimensionar el área de texto verticalmente */
+    box-sizing: border-box; /* Include padding and border in width and height calculations */
+  }
+  
+  /* Base styles */
+  #miBoton {
+    background-color: #98c4e4; /* Instagram primary blue */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase; /* Convert text to uppercase for Instagram-like style */
+    display: inline-block;
+    transition: background-color 0.15s ease-in-out;
+    /* Remove previous margin-top */
+  }
+  
+  #miBoton:hover {
+    background-color: #0095FF; /* Darker blue on hover */
+  }
+  
+  /* Responsive Styles (for smaller screens) */
+  @media only screen and (max-width: 768px) {
+    body {
+      padding: 15px; /* Adjust padding for smaller screens */
+    }
+  
+    #texto-entrada {
+      font-size: 13px; /* Adjust font size for smaller screens */
+    }
+  
+    #miBoton {
+      font-size: 14px;
+      padding: 8px 16px;
+    }
+  }
+  
+
+  #miBoton1 {
+    background-color: #ffa3a3; /* Color rojo sólido */
+    color: white; /* Texto blanco para contraste */
+   padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase; /* Convert text to uppercase for Instagram-like style */
+    display: inline-block;
+    transition: background-color 0.15s ease-in-out;
+  }
+  
+  #miBoton1:hover {
+    background-color: #C80000;
+  }
+
+  #miBoton1 {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+
+.boton-con-imagen {
+  background-image: url('boton.png'); /* Asegúrate de que la ruta a la imagen sea correcta */
+  background-repeat: no-repeat; /* Esto evitará que la imagen se repita */
+  background-position: 97% 50%
+}
+
+.boton-con-imagen1 {
+  background-image: url('copia.png'); /* Asegúrate de que la ruta a la imagen sea correcta */
+  background-repeat: no-repeat; /* Esto evitará que la imagen se repita */
+  background-position: 97% 50%
+}

@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "version": "1.0",
+    "name": "Mi aplicación web",
+    "short_name": "MiApp",
+    "description": "Esta es una descripción de mi aplicación web",
+    "icons": {
+        "128": "fazt.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
